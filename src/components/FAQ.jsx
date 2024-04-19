@@ -42,7 +42,7 @@ setResponse(result)
                   }}
                 >
                   <h3>{ele.qns}</h3>
-                  <FaPlus className={`${ele.status===true?"rotate-45":"rotate-0"}`}/>
+                  <FaPlus className={`${ele.status===true?"rotate-45":"rotate-0"} duration-300`}/>
                 </div>
                 <div
                   className={`${

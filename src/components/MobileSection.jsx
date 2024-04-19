@@ -11,13 +11,13 @@ const MobileSection = () => {
             className="w-[95%] object-cover "
           />
           <div className="absolute h-[80px] sm:h-[100px] w-[80%] sm:w-[50%] top-[65%] bg-black border border-[gray] rounded-xl  flex items-center py-1 pl-3">
-            <div className="h-[90%] w-[40%] bg-[url('./images/stranger.png')] bg-contain bg-no-repeat"></div>
-           <div className=" sm:mr-3 flex gap-8  sm:gap-8 items-center">
-            <div className="h-full flex-1 w-[170px] sm:w-[150px]  sm:text-[14px]">
+            <div className="h-[90%] w-[50%] bg-[url('./images/stranger.png')] bg-contain bg-no-repeat"></div>
+           <div className=" flex gap-8  sm:gap-5 items-center">
+            <div className="h-full  w-[170px] sm:w-[180px]   sm:text-[14px] pl-2">
               <h2 className=" font-semibold">Stranger Things</h2>
               <p className="text-[#005FAE]">Downloading...</p>
             </div>
-            <div>
+            <div className="bg-orange-800">
               <img
                 src="./images/download-icon.gif"
                 alt="downloading-image"
